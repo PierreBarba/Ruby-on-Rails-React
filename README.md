@@ -4,7 +4,7 @@
   <img src="fusion.png" alt="logo" width="280"  height="auto" />
   <br/><br/>
 
-  <h2><b>Ruby on Rails React </b></h2>
+  <h1><b>Ruby on Rails React </b></h1>
 
   <br/>
 
@@ -32,9 +32,6 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
-
-# 🎯 Hello Rails React <a name="about-project"></a>
 
 This application allows you to:
 
