@@ -7,7 +7,7 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 first_message = Message.create(greeting: 'hola mundo')
-first_message = Message.create(greeting: 'Hallo Welt')
-first_message = Message.create(greeting: 'Përshendetje Botë')
-first_message = Message.create(greeting: 'salut monde')
-first_message = Message.create(greeting: 'hello world')
+second_message = Message.create(greeting: 'Hallo Welt')
+third_message = Message.create(greeting: 'Përshendetje Botë')
+fourth_message = Message.create(greeting: 'salut monde')
+fifth_message = Message.create(greeting: 'hello world')
