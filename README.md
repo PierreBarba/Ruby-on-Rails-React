@@ -104,30 +104,7 @@ Clone the project using the following bash command in an appropriate location.
 Go to the project directory.
 
 ```bash
-  cd hello-rails-react
-```
-
-### Adding credentials
-
-Rails stores secrets in `config/credentials.yml.enc`, which is encrypted and hence cannot be edited directly. Rails uses `config/master.key`. If you have the master key, to add or change credentials in your terminal, run this command (change the name of you editor if you need for example code for VS Code)
-
-```bash
-  EDITOR="code" rails credentials:edit
-```
-
-This command will create the credentials file if it does not exist. Additionally, this command will create config/master.key if no master key is defined.
-Here pass the --wait flag to make sure the encryption happens after the edits have been saved and the editor closed.
-
-```bash
-  EDITOR="code --wait" rails credentials:edit
-```
-
-The scaffolded credentials.yml.enc looks like below:
-
-```bash
-  postgres_password: Database User Password
-  smtp_user_name: SMTP User name
-  smtp_password: SMTP User password
+  cd Ruby-on-Rails-React
 ```
 
 To learn more [check Custom Credentials](https://edgeguides.rubyonrails.org/security.html#custom-credentials) documentation.
@@ -164,7 +141,6 @@ For testing you can run:
 
 ## 👥 Authors <a name="authors"></a>
 
-### First Author:
 
 **Jean Pierre Barba**
 
